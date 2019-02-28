@@ -118,7 +118,7 @@ namespace Opleidingsinstituut
             int amountSubject2 = 0;
             int amountSubject3 = 0;
 
-            if (listBoxRegistrations != null)
+            if (listBoxRegistrations.Items.Count > 0)
             {
                 if (ValidateDate())
                 {
